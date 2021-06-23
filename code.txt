@@ -1,0 +1,70 @@
+ekhane 3 rokom er  joining price ache .
+1: normal course 
+ price :- 2000 (indian price)
+ if u sell this course u will get 80-95% comission
+you will get :1500 
+
+2: 2nd 
+price :- 4000
+sell korle :- 2500, 1500 pabe 
+
+3: 3rd 
+
+price:- 8000
+sell korle :- 5000,2500
+
+
+
+one time investment and life time earning
+
+per day around 2500
+
+
+<!-- <?php
+// $imgurl=$_POST['down_url'];
+  // // echo $imgurl;
+  // $ch=curl_init($imgurl);
+  // curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
+  // $download=curl_exec($ch);
+  // curl_close($ch);
+  // header("Content-type: image/jpg ");
+  // header('Content-Disposition: attachment; filename="filllll.jpg"');
+  // echo $download;
+  $imgUrl = $_POST['down_url'];
+    $ch = curl_init($imgUrl);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    $downloadImg = curl_exec($ch);
+    curl_close($ch);
+    header('Content-type: image/jpg');
+    header('Content-Disposition: attachment;filename="thumbnail.jpg"');
+    echo $downloadImg;
+
+
+?> -->
+
+
+<?php
+if(isset($_POST['download']))
+{
+  
+  // $imgurl=$_POST['down_url'];
+  // // echo $imgurl;
+  // $ch=curl_init($imgurl);
+  // curl_setopt($ch,CURLOPT_RETURNTRANSFER,1);
+  // $download=curl_exec($ch);
+  // curl_close($ch);
+  // header("Content-type: image/jpg ");
+  // header('Content-Disposition: attachment; filename="filllll.jpg"');
+  // echo $download;
+  $imgUrl = $_POST['down_urll'];
+    $ch = curl_init($imgUrl);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    $downloadImg = curl_exec($ch);
+    curl_close($ch);
+    header('Content-type: image/jpg');
+    header('Content-Disposition: attachment;filename="thumbnail.jpg"');
+    echo $downloadImg;
+}
+
+
+?>
